@@ -68,8 +68,12 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end animate-slide-in-right">
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-blue-400/20 flex items-center justify-center">
-                <div className="w-72 h-72 rounded-full bg-card flex items-center justify-center">
-                  <div className="text-6xl font-bold text-muted-foreground">MSS</div>
+                <div className="w-72 h-72 rounded-full overflow-hidden bg-card border-4 border-primary/10">
+                  <img 
+                    src="https://i.postimg.cc/bwfd5WS1/image.jpg" 
+                    alt="MANNEM SUMANA SRI"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-primary to-blue-400 rounded-full opacity-20 animate-pulse"></div>

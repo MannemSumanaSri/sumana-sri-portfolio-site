@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Code, Brain, FileCode } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -22,7 +23,12 @@ const Services = () => {
       icon: FileCode,
       title: 'Python Projects',
       description: 'Powerful Python Solutions for Modern Applications',
-      features: ['Data Processing', 'Automation Scripts', 'API Development', 'Algorithm Implementation'],
+      features: [
+        'Write clean and efficient Python code for small to medium tasks',
+        'Use libraries like pandas, matplotlib, os',
+        'Perform calculations and logical operations',
+        'Debug and fix python programs'
+      ],
       gradient: 'from-yellow-500 to-orange-500'
     }
   ];
@@ -58,9 +64,9 @@ const Services = () => {
                   
                   <div className="space-y-2">
                     {service.features.map((feature) => (
-                      <div key={feature} className="flex items-center justify-center space-x-2">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
-                        <span className="text-xs text-muted-foreground">{feature}</span>
+                      <div key={feature} className="flex items-start justify-center space-x-2">
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-xs text-muted-foreground text-left">{feature}</span>
                       </div>
                     ))}
                   </div>
