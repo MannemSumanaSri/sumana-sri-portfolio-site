@@ -11,7 +11,7 @@ const Hero = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-2">
-              <p className="text-primary font-medium text-lg">Hi, I'm Sumana –</p>
+              <p className="text-primary font-medium text-lg">Hi, I'm MANNEM SUMANA SRI –</p>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Aspiring{' '}
                 <span className="gradient-text">Software Developer</span>
@@ -69,7 +69,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-blue-400/20 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full bg-card flex items-center justify-center">
-                  <div className="text-6xl font-bold text-muted-foreground">SS</div>
+                  <div className="text-6xl font-bold text-muted-foreground">MSS</div>
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-primary to-blue-400 rounded-full opacity-20 animate-pulse"></div>

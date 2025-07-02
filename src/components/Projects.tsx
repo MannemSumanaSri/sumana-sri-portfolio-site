@@ -15,10 +15,10 @@ const Projects = () => {
       gradient: 'from-purple-500 to-pink-500'
     },
     {
-      title: 'Offline Payments App',
-      description: 'Created an offline-first payment system using Android, QR scanning, and Bluetooth. Enabled secure peer-to-peer payments without internet by syncing data later.',
-      technologies: ['Android', 'Java', 'Bluetooth', 'QR Code', 'SQLite'],
-      category: 'Mobile Development',
+      title: 'Offline Payments Website',
+      description: 'Created an offline-first payment system using web technologies, QR scanning, and local storage. Enabled secure peer-to-peer payments without internet by syncing data later.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'QR Code', 'Local Storage'],
+      category: 'Web Development',
       gradient: 'from-blue-500 to-cyan-500'
     }
   ];
@@ -29,7 +29,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Some of my recent work showcasing my skills in machine learning and application development
+            Some of my recent work showcasing my skills in machine learning and web development
           </p>
         </div>
 

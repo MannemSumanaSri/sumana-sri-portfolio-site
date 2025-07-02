@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code, Brain, Smartphone, Palette } from 'lucide-react';
+import { Code, Brain, FileCode } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Services = () => {
@@ -20,18 +20,11 @@ const Services = () => {
       gradient: 'from-green-500 to-teal-500'
     },
     {
-      icon: Smartphone,
-      title: 'Mobile Apps',
-      description: 'Cross-platform mobile applications with intuitive user interfaces.',
-      features: ['Android Development', 'Cross-platform', 'Offline Support', 'Modern UI'],
-      gradient: 'from-orange-500 to-red-500'
-    },
-    {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Beautiful and functional designs that enhance user experience.',
-      features: ['User Research', 'Wireframing', 'Prototyping', 'Visual Design'],
-      gradient: 'from-pink-500 to-rose-500'
+      icon: FileCode,
+      title: 'Python Projects',
+      description: 'Custom Python applications for automation, data processing, and analysis.',
+      features: ['Data Processing', 'Automation Scripts', 'API Development', 'Algorithm Implementation'],
+      gradient: 'from-yellow-500 to-orange-500'
     }
   ];
 
@@ -45,7 +38,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
