@@ -71,3 +71,63 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+
+# 💼 Sumana Sri Portfolio
+
+
+This is my personal portfolio website built using *Lovable*, a no-code builder, and customized to highlight my skills, projects, and achievements.
+
+
+## 🔗 Live Website
+
+
+[Click here to view the portfolio](https://your-portfolio-link.com)
+
+
+## 🛠 Built With
+
+
+- Lovable.io (No-code builder)
+
+  
+- Custom content, links, and design
+
+
+## 📁 Features
+
+
+- About Me section with education and background
+
+  
+- Projects with links to GitHub repositories
+
+  
+- Resume download option
+
+  
+- Contact section with LinkedIn, Email, and Phone
+
+
+## 📌 Purpose
+
+
+To showcase my skills in Python, Full Stack Development, Machine Learning, and my contributions like:
+
+
+- 61st Rank in GFG (college)
+
+  
+- 22-week DSA Challenge
+
+  
+- Skillsoft Generative AI completion
+
+
+## 📬 Contact
+
+
+- 📧 Email: mannemsumanasri@gmail.com
+
+  
+- 🔗 LinkedIn: [Sumana Sri](https://www.linkedin.com/in/sumana-sri-227b53308)
