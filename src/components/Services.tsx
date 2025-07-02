@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Code, Brain, FileCode } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -22,7 +21,7 @@ const Services = () => {
     {
       icon: FileCode,
       title: 'Python Projects',
-      description: 'Custom Python applications for automation, data processing, and analysis.',
+      description: 'Powerful Python Solutions for Modern Applications',
       features: ['Data Processing', 'Automation Scripts', 'API Development', 'Algorithm Implementation'],
       gradient: 'from-yellow-500 to-orange-500'
     }
