@@ -53,6 +53,20 @@ const Contact = () => {
     }));
   };
 
+  const downloadResume = () => {
+    // Convert Google Drive view link to direct download link
+    const driveFileId = '1rrQntsexneCAJ_YIFyEeHfJMfeZzILmV';
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${driveFileId}`;
+    
+    // Create a temporary link element and trigger download
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = 'MANNEM_SUMANA_SRI_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -154,7 +168,7 @@ const Contact = () => {
             </div>
 
             <div className="pt-6">
-              <Button size="lg" className="w-full md:w-auto">
+              <Button size="lg" className="w-full md:w-auto" onClick={downloadResume}>
                 <Mail className="mr-2 h-4 w-4" />
                 Download Resume
               </Button>
@@ -162,7 +176,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="card-gradient border-border/50">
+          <Card className="card-gradient border-border/50 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-2xl">Send Message</CardTitle>
             </CardHeader>
