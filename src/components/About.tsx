@@ -5,6 +5,20 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
+  const downloadResume = () => {
+    // Convert Google Drive view link to direct download link
+    const driveFileId = '1rrQntsexneCAJ_YIFyEeHfJMfeZzILmV';
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${driveFileId}`;
+    
+    // Create a temporary link element and trigger download
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = 'MANNEM_SUMANA_SRI_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="about" className="py-20 bg-muted/20">
       <div className="container mx-auto px-4">
@@ -32,7 +46,7 @@ const About = () => {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
+              <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={downloadResume}>
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Button>
